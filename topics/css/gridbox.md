@@ -18,3 +18,5 @@ Some content here, hello world.
 ```
 
 ## Blah 2
+
+[GitHub](http://github.com)
