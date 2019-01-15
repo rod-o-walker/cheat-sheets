@@ -1,8 +1,20 @@
 ---
 layout: topic-page
 topic: css
-permalink: /css/gridobx
+permalink: /css/gridbox
 title: GridBox
+summary: CSS3 web layout model
 ---
 
-# GridBox
+
+## Blah 1
+
+Some content here, hello world.
+
+```css
+    .wrapper {
+        display: flex;
+    }
+```
+
+## Blah 2

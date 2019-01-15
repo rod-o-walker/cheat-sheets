@@ -6,9 +6,9 @@ title: Home
 <ul class="topic-list">
     {% for topic in site.data.topics %}
     <li>
-        <a class="topic-link" href="/{{ topic[0] }}">
+        <a class="topic-link" href="{{ '/' | append: topic[0] | relative_url }}">
             <div>
-                <img src="/assets/images/{{ topic[0] }}.png"/>
+                <img src="{{ '/assets/images/' | append: topic[0] | append: '.png' | relative_url }}"/>
                 <span class="topic-label">{{ topic[1].label }}</span>
             </div>
         </a>

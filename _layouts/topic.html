@@ -5,7 +5,7 @@ layout: default
 {% assign topic = site.data.topics[page.topic] %}
 
 <h1 class="topic-header">
-    <img src="/assets/images/{{ page.topic }}.png"/>
+    <img src="{{ '/assets/images/' | append: page.topic | append: '.png' | relative_url }}"/>
     {{ topic.label }}
 </h1>
 
@@ -14,7 +14,7 @@ layout: default
 {% for topic_page in topic_pages %}
     {% if topic_page.title %}
     <li>
-        <a href="{{ topic_page.permalink }}"><i class="fas fa-angle-right"></i> {{ topic_page.title }}</a>
+        <a href="{{ topic_page.permalink | relative_url }}"><i class="fas fa-angle-right"></i> {{ topic_page.title }}</a>
         <div>{{ topic_page.summary }}</div>
     </li>   
     {% endif %}

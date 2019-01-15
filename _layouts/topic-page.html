@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<a href="/{{ page.topic }}">(back up to {{ site.data.topics[page.topic].label }})</a>
+<a href="{{ '/' | append: page.topic | relative_url }}">(back up to {{ site.data.topics[page.topic].label }})</a>
 
 <h1 class="page-title">
     <i class="fas fa-angle-right"></i> {{ page.title }}
