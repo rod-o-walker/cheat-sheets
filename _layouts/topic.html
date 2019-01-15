@@ -7,6 +7,10 @@ layout: default
 <h1 class="topic-header">
     <img src="{{ '/assets/images/' | append: page.topic | append: '.png' | relative_url }}"/>
     {{ topic.label }}
+
+    <a class="github-link" target="_blank" href="https://github.com/rod-o-walker/cheat-sheets/blob/master/topics/{{ page.topic }}">
+        <i class="far fa-plus-square"></i> add page
+    </a>
 </h1>
 
 {% assign topic_pages = site.pages | where_exp: "item", "item.path contains page.permalink" %}

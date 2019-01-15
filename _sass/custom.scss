@@ -75,8 +75,17 @@
     }
 }
 
+.github-link {
+    position: absolute; 
+    top: 12px;
+    right: 15px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
 .page-title {
     padding: 5px 0;    
+    position: relative;
 }
 
 .page-content {
