@@ -1,0 +1,18 @@
+---
+layout: default
+title: Home
+---
+
+<ul class="topic-list">
+    {% for topic in site.data.topics %}
+    <li>
+        <a class="topic-link" href="/{{ topic[0] }}">
+            <div>
+                <img src="/assets/images/{{ topic[0] }}.png"/>
+                <span class="topic-label">{{ topic[1].label }}</span>
+            </div>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+    

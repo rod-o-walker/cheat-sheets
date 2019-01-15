@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% assign topic = site.data.topics[page.topic] %}
+
+<h1 class="topic-header">
+    <img src="/assets/images/{{ page.topic }}.png"/>
+    {{ topic.label }}
+</h1>
+
+{% assign topic_pages = site.pages | where_exp: "item", "item.path contains page.permalink" %}
+<ul class="topic-page-list">
+{% for topic_page in topic_pages %}
+    {% if topic_page.title %}
+    <li>
+        <a href="{{ topic_page.permalink }}"><i class="fas fa-angle-right"></i> {{ topic_page.title }}</a>
+        <div>{{ topic_page.summary }}</div>
+    </li>   
+    {% endif %}
+{% endfor %}
+</ul>

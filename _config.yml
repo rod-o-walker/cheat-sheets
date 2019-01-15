@@ -1,1 +1,4 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-modernist
+title: cheat-sheets
+sass:
+    sass_dir: _sass

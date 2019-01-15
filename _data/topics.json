@@ -1,0 +1,20 @@
+{
+    "javascript": {    
+        "label": "JavaScript"
+    },
+    "css": {
+        "label": "CSS"
+    },
+    "html": {
+        "label": "HTML"
+    },
+    "angular": {
+        "label": "angular"
+    }, 
+    "nodejs": {
+        "label": "NodeJS"
+    }, 
+    "electron": {
+        "label": "Electron"
+    }
+}

@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<a href="/{{ page.topic }}">(back up to {{ site.data.topics[page.topic].label }})</a>
+
+<h1 class="page-title">
+    <i class="fas fa-angle-right"></i> {{ page.title }}
+</h1>
+
+<div class="page-content">
+    {{ page.content | markdownify }}
+</div>
