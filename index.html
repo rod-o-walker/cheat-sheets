@@ -8,7 +8,9 @@ title: Home
     <li>
         <a class="topic-link" href="{{ '/' | append: topic[0] | relative_url }}">
             <div>
-                <img src="{{ '/assets/images/' | append: topic[0] | append: '.png' | relative_url }}"/>
+                <div class="image-wrapper">
+                    <img src="{{ '/assets/images/' | append: topic[0] | append: '.png' | relative_url }}"/>
+                </div>
                 <span class="topic-label">{{ topic[1].label }}</span>
             </div>
         </a>

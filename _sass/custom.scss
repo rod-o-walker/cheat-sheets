@@ -21,6 +21,12 @@ body {
         margin: 10px 15px;
         padding: 5px;
     }
+
+    .image-wrapper {
+        height: 166px;
+        display: flex;
+        align-items: center;        
+    }
 }
 
 .topic-link {

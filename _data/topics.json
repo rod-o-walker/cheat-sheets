@@ -5,6 +5,12 @@
     "css": {
         "label": "CSS"
     },
+    "jekyll": {
+        label: "Jekyll"
+    },
+    "vuejs": {
+        "label": "Vue.js"
+    },
     "html": {
         "label": "HTML"
     },
