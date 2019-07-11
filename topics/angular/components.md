@@ -1,7 +1,7 @@
 ---
 layout: topic-page
 topic: angular
-permalink: /css/flexbox
+permalink: /angular/components
 title: Components
 summary: Angular components
 ---
