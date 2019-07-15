@@ -3,11 +3,11 @@ layout: topic-page
 topic: angular
 permalink: /angular/architecture&organization
 title: Architecture & Organization
-summary:
+summary: Fundamentals and how best to organize an app
 ---
 
 ## Overview
-Angular is a platform and framework for building client applications in HTML and TypeScript
+Angular is a platform and framework for building client applications in HTML and TypeScript.
 
 ## NgModules
 The main building blocks of an Angular app are the NgModules. They collect related code into functional sets.
