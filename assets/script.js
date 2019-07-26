@@ -5,6 +5,7 @@ function addPage(topic) {
     let content = [
         '---',
         'layout: topic-page',
+        `topic: ${topic}`,
         `permalink: /${topic}/${encodedTitle}`,
         `title: ${title}`,
         'summary: INSERT SUMMARY HERE',
