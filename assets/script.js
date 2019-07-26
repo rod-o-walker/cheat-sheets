@@ -10,7 +10,7 @@ function addPage(topic) {
         'summary: INSERT SUMMARY HERE',
         '---'
     ].join('\n');
-    let url = `https://github.com/rod-o-walker/cheat-sheets/new/master/topics?filename=${topic}/${filename}&value=${encodeURI(content)}`;
+    let url = `https://github.com/rod-o-walker/cheat-sheets/new/master/topics?filename=topics/${topic}/${filename}&value=${encodeURI(content)}`;
 
     window.open(url, '_blank');
 }
