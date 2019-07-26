@@ -8,7 +8,7 @@ layout: default
     <img src="{{ '/assets/images/' | append: page.topic | append: '.png' | relative_url }}"/>
     {{ topic.label }}
 
-    <a class="github-link" target="_blank" href="https://github.com/rod-o-walker/cheat-sheets/blob/master/topics/{{ page.topic }}">
+    <a class="github-link" onclick="addPage('{{ page.topic }}')">
         <i class="far fa-plus-square"></i> add page
     </a>
 </h1>
@@ -20,7 +20,7 @@ layout: default
     <li>
         <a href="{{ topic_page.permalink | relative_url }}"><i class="fas fa-angle-right"></i> {{ topic_page.title }}</a>
         <div>{{ topic_page.summary }}</div>
-    </li>   
+    </li>
     {% endif %}
 {% endfor %}
 </ul>
