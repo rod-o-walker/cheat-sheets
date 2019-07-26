@@ -1,7 +1,8 @@
 ---
 layout: topic-page
 topic: angular
-permalink: /angular/testing
-title: Testing
-summary: Notes on unit-testing an Angular application
+permalink: /angular/material-design
+title: Material Design
+summary: Google styling and components for Angular applications
 ---
+
