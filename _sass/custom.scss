@@ -6,6 +6,7 @@ body {
     width: calc(100% - 20px);
     margin: 0 auto;
     max-width: 1160px;
+    min-width: 300px;
     min-height: 600px;
 }
 
@@ -61,7 +62,7 @@ body {
 }
 
 .topic-header {
-    margin-left: 10px;
+    margin-left: 0;
     padding-top: 12px;
     padding-left: 58px;
     padding-bottom: 15px;
@@ -78,7 +79,6 @@ body {
 }
 
 .topic-page-list {
-    // display: flex;
     list-style-type: none;
 
     li {
@@ -138,11 +138,28 @@ body {
     }
 }
 
+@media all and (max-width:380px) {
+    .topic-list {
+        display: block;
 
-@media all and (max-width:580px) {
+        li {
+            flex-basis: calc(100% - 40px);
+        }
+    }
+}
+
+@media all and (max-width:699px) {
     .topic-list {
         li {
             flex-basis: calc(50% - 40px);
         }
+    }
+
+    .topic-page-list {
+        padding-left: 5px;
+    }
+
+    .github-link {
+        display: none;
     }
 }
