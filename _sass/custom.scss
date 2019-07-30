@@ -149,6 +149,10 @@ body {
 }
 
 @media all and (max-width:699px) {
+    body {
+        padding: 10px 0;
+    }
+
     .topic-list {
         li {
             flex-basis: calc(50% - 40px);
