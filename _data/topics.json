@@ -22,5 +22,8 @@
     }, 
     "electron": {
         "label": "Electron"
+    },
+    "git": {
+        "label": "Git"
     }
 }
