@@ -18,7 +18,9 @@ This creates branch on local repo, but doesn't actually switch over to the branc
 ``` code
 git checkout <branch-name>
 ```
-This will actually switch into the branch. Or can use the shorthand command ...
+This will actually switch into the branch. 
+
+Or can use the shorthand command ...
 ``` code
 git checkout -b <branch-name>
 ```
