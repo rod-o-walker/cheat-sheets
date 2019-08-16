@@ -13,6 +13,14 @@ body {
         margin: 0;
         padding: 10px 20px;
     }
+    
+    h2 {
+        margin-top: 15px;
+    }
+    
+    p + h2 {
+        margin-top: 0;
+    }    
 }
 
 .topic-list {
