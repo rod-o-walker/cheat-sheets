@@ -24,9 +24,10 @@ body {
     }
 
     .image-wrapper {
-        height: 166px;
+        height: 165px;
         display: flex;
         align-items: center;
+        padding-bottom: 10px;
 
         img {
             max-width: 100%;
