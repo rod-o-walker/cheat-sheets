@@ -31,3 +31,16 @@ Or can use the shorthand command ...
 git checkout -b <branch-name>
 ```
 which does both the create and switch over in one command.
+
+## Merging
+After completing, testing and commiting changes to working branch, these changes will likely need to be merged in to the main (e.g. master  branch). To do so, will switch into the destination branch:
+```shell
+git checkout master
+```
+And then merge the desired branch into the current branch:
+```shell
+git merge <branch-name>
+```
+
+## Merge types
+In the simplest case, the working branch will be directly ahead of the master branch, in terms of commits, and so the merge will be a _fast forward_ merge, meaning the HEAD pointer of the master branch will be updated to point the HEAD pointer of the working branch. No actual file merging is actually required.
