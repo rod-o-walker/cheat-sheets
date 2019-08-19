@@ -54,3 +54,10 @@ Replace the link text with something else:
 ```
 > This text will be styled as a blockquote
 ```
+
+## Images
+```
+![Alt Text](url)
+```
+
+
