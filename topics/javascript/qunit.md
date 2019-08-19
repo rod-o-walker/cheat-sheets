@@ -44,3 +44,17 @@ module('module 1', {
 });
 ```
 
+## DOM integration
+Use JQuery, or vanilla JS, to access and check for DOM elements.
+``` javascript
+test('DOM test', function() {
+  // check element exists
+  strictEqual($('#myDiv').length,, 1);
+  // check text in element
+  strictEqual($('#myDiv').text(), 'some text');
+});
+```
+<br/>
+Testing for DOM elements requires adding those elements to the DOM, which is usually done in the setup function. However, that means will also need to clean-up added elements in the teardown function. To avoid doing the teardown work, you can do DOM manipulation work inside a specific QUnit div, with id="qunit-fixture", and QUnit will clear out this div before each test is executed.
+
+
