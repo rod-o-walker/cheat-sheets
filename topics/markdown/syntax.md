@@ -9,7 +9,7 @@ summary: Syntax for creating markdown content
 ## Headers
 ```
 # This is an <h1> header
-## This is an <2> header
+## This is an <h2> header
 ####### This is an <h6> header
 ```
 **Note:** The space between the hashes and the text is required.
