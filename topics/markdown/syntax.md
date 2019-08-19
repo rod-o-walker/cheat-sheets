@@ -61,7 +61,7 @@ Replace the link text with something else:
 ```
 
 ## Line break
-No specific syntax for this, just HTML tag:
+No specific syntax for this, just use the HTML line-break tag:
 ```
 Some text
 <br/>
@@ -73,3 +73,13 @@ Markdown allows you to use backslash escapes to output literal characters that w
 ```
 \*will show the asterisk characters\*
 ```
+
+## Code blocks
+Use the code block fence, which starts and ends with \`\`\`, to visually present a block of code.
+```
+\`\`\`
+code goes here
+\`\`\`
+```
+Can also specify the languange (e.g. javascript) after the opening \`\`\` to have the markdown renderer apply some syntax highlighting.
+Complete list of supported languages is here: https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
