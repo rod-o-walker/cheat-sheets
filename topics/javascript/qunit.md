@@ -31,6 +31,7 @@ test('test 1', function() { ... });
 module('module 2');
 // etc.
 ```
+<br/>
 The module function can also take an object, that includes a setup and/or teardown function that get executed before/after each test associated with the module.
 ```javascript
 module('module 1', {
