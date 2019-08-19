@@ -73,6 +73,7 @@ Markdown allows you to use backslash escapes to output literal characters that w
 ```
 \*will show the asterisk characters\*
 ```
+<br/>
 Within a code block, you do not need to escape characters. Only challenge is if you need to include three backticks within the code block, in that case you should use four backticks to open/close the code block.
 
 
