@@ -19,4 +19,4 @@ test('my first test', function() {
   ok(true);
 });
 ```
-* Consists of test name, and function containing the test assertions.
+Consists of test name, and function containing the test assertions.
