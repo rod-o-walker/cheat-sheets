@@ -9,14 +9,15 @@ summary: Unit testing framework built by JQuery
 ## Intro
 Similar to server side testing frameworks like JUnit and NUnit
 
+
 ## How To Run
-* Create a test runner HTML file (e.g. test-runner.html)
-  * Must reference the qunit.js/.css framework files, the application JS file(s) and the JS files containing the actual tests.
-  
+Create a test runner HTML file (e.g. test-runner.html), which includes references to the qunit.js/.css framework files, the application JS file(s), and the JS files containing the actual tests.
+
+
 ## Basic test
 ```javascript
 test('my first test', function() {
   ok(true);
 });
 ```
-Consists of test name, and function containing the test assertions.
+Call the QUnit test() function, passing in the name of the test, and function to execute the test assertions.
