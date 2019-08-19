@@ -18,3 +18,9 @@ Can also specify the languange (e.g. javascript) after the opening \`\`\` to hav
 <br/>
 Complete list of supported languages is here: 
 <https://github.com/github/linguist/blob/master/lib/linguist/languages.yml>
+
+## Links
+GitHub flavor requires you to put \< and \> around URLs to embed them directly:
+```
+<http://www.google.com>
+```
