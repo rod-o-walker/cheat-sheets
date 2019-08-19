@@ -67,3 +67,9 @@ Some text
 <br/>
 Some more text, following a blank line
 ```
+
+## Escaping special characters
+Markdown allows you to use backslash escapes to output literal characters that wouuld otherwise have special meaning
+```
+\*will show the asterisk characters\*
+```
