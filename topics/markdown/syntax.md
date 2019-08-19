@@ -68,19 +68,6 @@ Some text
 Some more text, following a blank line
 ```
 
-## Code blocks
-Use the code block fence, which starts and ends with \`\`\` (3 back tick characters), to visually present a block of code.
-````
-```
-code goes here
-```
-````
-<br/>
-Can also specify the languange (e.g. javascript) after the opening \`\`\` to have the markdown renderer apply some syntax highlighting.
-<br/>
-Complete list of supported languages is here: 
-https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
-
 ## Escaping special characters
 Markdown allows you to use backslash escapes to output literal characters that wouuld otherwise have special meaning
 ```
