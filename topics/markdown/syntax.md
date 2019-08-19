@@ -49,3 +49,8 @@ Replace the link text with something else:
 ```
 [Some text](http://example.com)
 ```
+
+## Blockquotes
+```
+> This text will be styled as a blockquote
+```
