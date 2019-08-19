@@ -17,4 +17,4 @@ code goes here
 Can also specify the languange (e.g. javascript) after the opening \`\`\` to have the markdown renderer apply some syntax highlighting.
 <br/>
 Complete list of supported languages is here: 
-[Syntax highlighting languages](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
+<https://github.com/github/linguist/blob/master/lib/linguist/languages.yml>
