@@ -60,4 +60,10 @@ Replace the link text with something else:
 ![Alt Text](url)
 ```
 
-
+## Line break
+No specific syntax for this, just HTML tag:
+```
+Some text
+<br/>
+Some more text, following a blank line
+```
