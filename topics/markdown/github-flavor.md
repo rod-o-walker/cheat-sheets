@@ -3,7 +3,7 @@ layout: topic-page
 topic: markdown
 permalink: /markdown/github-flavor
 title: GitHub Flavor
-summary: GitHub has its own flavor of Markdown, which provides some additional functionality
+summary: GitHub has its own flavor of Markdown (GFM), which provides some additional functionality
 ---
 
 ## Code blocks
@@ -20,7 +20,9 @@ Complete list of supported languages is here:
 <https://github.com/github/linguist/blob/master/lib/linguist/languages.yml>
 
 ## Links
-GitHub flavor requires you to put \< and \> around URLs to embed them directly:
+GitHub flavor requires you to put \< and \> around URLs to embed them directly, instead of just putting the URL as is directly in the markdown text:
 ```
 <http://www.google.com>
 ```
+<br/>
+The other format of [text](url) still works as normal in GFM
