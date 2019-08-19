@@ -31,10 +31,21 @@ Unordered list:
 * Item 2
   * Sub-item
 ```
-
+  
 Ordered list:
 ```
 1. Item 1
 1. Item 2
   * Sub-item
+```
+
+## Links
+Embed the link text as is:
+```
+http://example.com
+```
+  
+Replace the link text with something else:
+```
+[Some text](http://example.com)
 ```
