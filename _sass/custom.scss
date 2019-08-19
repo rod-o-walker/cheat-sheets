@@ -14,15 +14,17 @@ body {
         padding: 10px 20px;        
     }
     
-    h2 {
-        margin-top: 18px;
-        padding-top: 24px;
-        font-size: 22px;
+    .page-content {    
+        h2 {
+            margin-top: 18px;
+            padding-top: 24px;
+            font-size: 22px;
+        }
+
+        p + h2 {
+            margin-top: 0;
+        }
     }
-    
-    p + h2 {
-        margin-top: 0;
-    }    
 }
 
 .topic-list {
