@@ -25,5 +25,8 @@
     },
     "git": {
         "label": "Git"
+    },
+    "markdown": {
+        "label": "Markdown"
     }
 }
