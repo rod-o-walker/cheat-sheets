@@ -58,3 +58,12 @@ test('DOM test', function() {
 Testing for DOM elements requires adding those elements to the DOM, which is usually done in the setup function. However, that means will also need to clean-up added elements in the teardown function. To avoid doing the teardown work, you can do DOM manipulation work inside a specific QUnit div, with id="qunit-fixture", and QUnit will clear out this div before each test is executed.
 
 
+## QUnit events
+QUnit has number of custom events that can hook into:
+```javascript
+QUnit.moduleStart = function() { ... };
+QUnit.moduleDone = function() { ... };
+QUnint.testStart = function() { ... };
+QUnit.testDone = function() { ... };
+```
+
