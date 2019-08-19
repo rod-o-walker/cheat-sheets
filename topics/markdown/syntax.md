@@ -75,11 +75,11 @@ Markdown allows you to use backslash escapes to output literal characters that w
 ```
 
 ## Code blocks
-Use the code block fence, which starts and ends with \`\`\`, to visually present a block of code.
+Use the code block fence, which starts and ends with \`\`\` (3 back tick characters), to visually present a block of code.
 ```
-\`\`\`
+\```
 code goes here
-\`\`\`
+\```
 ```
 Can also specify the languange (e.g. javascript) after the opening \`\`\` to have the markdown renderer apply some syntax highlighting.
 Complete list of supported languages is here: https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
