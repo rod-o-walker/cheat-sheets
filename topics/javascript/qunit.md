@@ -21,3 +21,13 @@ test('my first test', function() {
 });
 ```
 Call the QUnit test() function, passing in the name of the test, and function to execute the test assertions.
+
+
+## Organizing tests
+In the JS file with the QUnit tests, insert a call to module() function, passing in the module name, to indicate that all tests follow after that are part of the module.
+```javascript
+module('module 1');
+test('test 1', function() { ... });
+module('module 2');
+...
+```
