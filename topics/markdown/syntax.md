@@ -31,8 +31,7 @@ Unordered list:
 * Item 2
   * Sub-item
 ```
-
-\s\s
+  
 
 Ordered list:
 ```
@@ -46,8 +45,7 @@ Embed the link text as is:
 ```
 http://example.com
 ```
-
-\s\s  
+  
 
 Replace the link text with something else:
 ```
