@@ -33,7 +33,7 @@ module('module 2');
 ```
 The module function can also take an object, that includes a setup and/or teardown function that get executed before/after each test associated with the module.
 ```javascript
-module('module 1, {
+module('module 1', {
   setup: function() {
     // stuff to do before each test
   }, 
