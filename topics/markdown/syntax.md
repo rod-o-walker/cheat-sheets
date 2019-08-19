@@ -12,7 +12,7 @@ summary: Syntax for creating markdown content
 ## This is an <2> header
 ####### This is an <h6> header
 ```
-**Note** that the space between the hashes and the text is required.
+**Note:** The space between the hashes and the text is required.
 
 ## Emphasis
 ```
