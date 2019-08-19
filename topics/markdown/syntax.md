@@ -2,7 +2,7 @@
 layout: topic-page
 topic: markdown
 permalink: /markdown/syntax
-title: Syntax
+title: General Syntax
 summary: Syntax for creating markdown content
 ---
 
