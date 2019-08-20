@@ -49,7 +49,7 @@ Use JQuery, or vanilla JS, to access and check for DOM elements.
 ``` javascript
 test('DOM test', function() {
   // check element exists
-  strictEqual($('#myDiv').length,, 1);
+  strictEqual($('#myDiv').length, 1);
   // check text in element
   strictEqual($('#myDiv').text(), 'some text');
 });
@@ -89,6 +89,7 @@ test('asynch test', function() {
 
 2. asynchTest()
 * if use asynchTest() in place of test(), then can avoid having use stop() function, though start() calls are still required.
+
 ```javascript
 asynchTest('asynch test', function() {
       asynchMethod(function() {
