@@ -78,10 +78,10 @@ QUnit has few features to acommodate testing asynchronous functionality:
 test('asynch test', function() {
     stop(2);
     asynchMethod(function() {
-      start();
+        start();
     });
     asynchMethod(function() {
-      start();
+        start();
     });
     // some asserts
 });
@@ -92,8 +92,19 @@ test('asynch test', function() {
 ```javascript
 asynchTest('asynch test', function() {
     asynchMethod(function() {
-      start();
+        start();
     });
     // some asserts
+});
+```
+
+```javascript
+module('module 1', {
+  setup: function() {
+    // stuff to do before each test
+  }, 
+  teardown: function() {
+    // stuff to do ater each test
+  }
 });
 ```
