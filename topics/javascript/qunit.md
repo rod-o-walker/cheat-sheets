@@ -7,7 +7,9 @@ summary: Unit testing framework built by JQuery
 ---
 
 ## Intro
-Similar to server side testing frameworks like JUnit and NUnit
+Similar to server side testing frameworks like JUnit and NUnit.
+
+API page is available here - <https://api.qunitjs.com/>
 
 
 ## How To Run
