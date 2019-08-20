@@ -61,10 +61,14 @@ Testing for DOM elements requires adding those elements to the DOM, which is usu
 ## QUnit events
 QUnit has number of custom events that can hook into:
 ```javascript
+QUnit.begin = function() { ... };
+QUnit.end = function() { ... };
 QUnit.moduleStart = function() { ... };
 QUnit.moduleDone = function() { ... };
 QUnint.testStart = function() { ... };
 QUnit.testDone = function() { ... };
+// this is run each time an assert function is executed
+QUnit.log = function() { ... };
 ```
 These are helpful for implementing testing within Continuous Integration (CI) pipelines.
 
