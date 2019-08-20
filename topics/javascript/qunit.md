@@ -74,6 +74,7 @@ QUnit has few features to acommodate testing asynchronous functionality:
 1. stop()/start() functions 
 * stop() causes QUnit to pause until start() call is made, which is usually done within a callback of some asynchronous functionality.
 * if functionality includes multiple bits of asynchronous code, can include a count parameter to stop() to indicate how many starts should wait for.
+    
     ```javascript
     test('asynch test', function() {
       stop(2);
@@ -98,3 +99,15 @@ QUnit has few features to acommodate testing asynchronous functionality:
       // some asserts
     });
     ```
+
+## NoGlobals
+Inside the QUnit test page there is "noglobals" checkbox. When checked, this will fail any test that introduces a global variable.
+```javascript
+// this test will fail when noglobals is checked
+test('test 1', function() {
+  globalVar = 1;
+}
+```
+
+## NoTryCatch
+By default, QUnit wraps all tests inside a try/catch block. As a result, if the code being tested includes an uncaught exception, it will not make it through to the browser. Checking the notrycatch option on the QUnit test page will change this behavior.
