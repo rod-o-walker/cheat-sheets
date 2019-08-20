@@ -111,3 +111,24 @@ test('test 1', function() {
 
 ## NoTryCatch
 By default, QUnit wraps all tests inside a try/catch block. As a result, if the code being tested includes an uncaught exception, it will not make it through to the browser. Checking the notrycatch option on the QUnit test page will change this behavior.
+
+
+## Expected asserts
+You can tell QUnit how many assert calls are expected, and if the number of asserts called does not match the value, the test will fail. This is beneficial when doing asynchronous code.
+There are two ways to do this:
+1. expect()
+  ```javascript
+  // this test will fail because only includes one assert, but expects two
+  test('test 1', function() {
+    expect(2);
+    ok(true);
+  });
+  ```
+2. parameter in the test() function
+  ```javascript
+  // this test will pass
+  test('test 1', 2, function() {
+    ok(true);
+    ok(true);
+  }
+  ```
