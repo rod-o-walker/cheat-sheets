@@ -89,6 +89,7 @@ QUnit has few features to acommodate testing asynchronous functionality:
 
 2. asynchTest()
 * if use asynchTest() in place of test(), then can avoid having use stop() function, though start() calls are still required.
+    
     ```javascript
     asynchTest('asynch test', function() {
       asynchMethod(function() {
