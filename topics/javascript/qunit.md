@@ -131,6 +131,7 @@ There are two ways to do this:
     ok(true);
   });
   ```
+
 2. parameter in the test() function
 
   ```javascript
