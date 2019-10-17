@@ -6,11 +6,19 @@ title: Stashing
 summary: Commands and notes related to stashing in Git
 ---
 
+## Powershell note
+"{" and "}" are special characters in powershell. So when specifying any shell id, be sure to wrap in single quotes.
+
+``` shell
+git stash drop 'stash@{1}'
+```
+
+
 ## Basic stash
+Creates a stash of all the uncommitted file changes in the current branch.
 ``` shell
 git stash
 ```
-Creates a stash of all the uncommitted file changes in the current branch.
 
 
 ## Save
@@ -65,7 +73,6 @@ git stash show
 Again, include a stash id to view a specific stash.
 
 To delete a stash without applying it:
-
 
 
 ## Cleaning up stashes
