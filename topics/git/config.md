@@ -7,6 +7,7 @@ summary: Configuration options when using Git
 ---
 
 ## Storing credentials
+Run following command within git folder
 ``` shell
-git config credential.helper 'store --file=~/<file_name>'
+git config credential.helper store
 ```
