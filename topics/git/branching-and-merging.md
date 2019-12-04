@@ -32,6 +32,16 @@ git checkout -b <branch-name>
 ```
 which does both the create and switch over in one command.
 
+## Delete a branch
+Delete local branch:
+```
+git branch --delete branch_name
+```
+Delete remote branch:
+```
+git push <remote_name> --delete <branch_name>
+```
+
 ## Merging
 After completing, testing and commiting changes to working branch, these changes will likely need to be merged in to the main (e.g. master  branch). To do so, will switch into the destination branch:
 ```shell
