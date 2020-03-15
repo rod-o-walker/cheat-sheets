@@ -27,6 +27,13 @@ Define flex container, the item that will wrap around all the other items, by se
 
 Set the flex direction on the container to define the "main" axis. Main axis is the axis that items will stack along.
 * _flex-direction: row_ is the default, and means that items will stack horizontally from left-to-right (main-axis is horizontal from left-to-right)
-* _flex-direction: reverse-row_ means items will stack horizontally from right-to-left (main-axis is horizonal from right-to-left)
+* _flex-direction: row-reverse_ means items will stack horizontally from right-to-left (main-axis is horizonal from right-to-left)
 * _flex-direction: column_ means that item will stack vertically from top-to-bottom (main-axis is vertical from top-to-bottom)
-* _flex-direction: reverse-column_ means that item will stack vertically from bottom-to-top (main-axis is vertical from bottom-to-top)
+* _flex-direction: column-reverse_ means that item will stack vertically from bottom-to-top (main-axis is vertical from bottom-to-top)
+
+## Flex wrap
+
+If flex items don't all fit inside the flex container along the main-axis then the browser will wrap items on the another row/column, depending on the flex-wrap property
+* _flex-wrap: nowrap_ is the default and means no wrapping occurs
+* _flex-wrap: wrap_ means items will wrap along the cross-axis (i.e. if main-axis is horizontal then items will wrap vertically on to a new row, and if main-axis is vertical then items will wrap horizontally on to a new column)
+* remember that wrapping only occurs if the container is not big enough to have all the items along the main axis (i.e. if main axis is vertical, then the browser can just scroll vertically forever unless the container has some bounding height)
