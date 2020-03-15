@@ -13,16 +13,6 @@ Define flex container, the item that will wrap around all the other items, by se
 * _flex: inline-flex_ will make the container item an inline item rather than a block item, which is case with just "flex"
 * the children of the flex container are called the flex items
 
-```css
-    .container1 {
-        display: flex;
-    }
-    .container1 {
-        display: inline-flex;
-    }
-```
-
-
 ## Flex direction
 
 Set the flex direction on the container to define the "main" axis. Main axis is the axis that items will stack along.
