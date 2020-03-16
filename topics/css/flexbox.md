@@ -27,3 +27,10 @@ If flex items don't all fit inside the flex container along the main-axis then t
 * _flex-wrap: nowrap_ is the default and means no wrapping occurs
 * _flex-wrap: wrap_ means items will wrap along the cross-axis (i.e. if main-axis is horizontal then items will wrap vertically on to a new row, and if main-axis is vertical then items will wrap horizontally on to a new column)
 * remember that wrapping only occurs if the container is not big enough to have all the items along the main axis (i.e. if main axis is vertical, then the browser can just scroll vertically forever unless the container has some bounding height)
+
+## Re-ordering flex items
+
+The _order_ property on the flex item can be used to modify its order position along the main-axis. It works alot like z-index, in that all items have default value of 0, and items are ordered by relative value.
+* higher order values move to the end of the main-axis
+* can use negative values
+* be careful using this with text that is to be likely to be copied
