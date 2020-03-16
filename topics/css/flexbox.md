@@ -34,3 +34,12 @@ The _order_ property on the flex item can be used to modify its order position a
 * higher order values move to the end of the main-axis
 * can use negative values
 * be careful using this with text that is to be likely to be copied
+
+## Justify content
+
+Set property on the flex container to specify how flex items should be justified along the main-axis
+* _justify-content: flex-start_ is the default value, and will push items to the start of the main-axis
+* _justify-content: flex-end_ will push items to the end of the main-axis
+* _justify-content: center_ will center items along the main-axis
+* _justify_content: space-between_ will push first item to the start, last item to the end, and all the rest get evenly spaced in between
+* _justify_content: space-around_ all the available space gets applied evenly around the flex items
