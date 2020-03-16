@@ -6,6 +6,10 @@ title: FlexBox
 summary: CSS3 web layout model
 ---
 
+## Background
+
+A more modern way to position elements in CSS.
+* Excellent reference site - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ## Flex container
 
