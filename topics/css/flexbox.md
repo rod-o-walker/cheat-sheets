@@ -52,3 +52,17 @@ Set property on the flex container to specify how the flex items should be space
 * _align-items: flex-end_ - push items to the end of the cross-axis
 * _align-items: center_ - items will be centered along the cross-axis
 * _align-items: baseline_ - items will be aligned so that the bottom of the text inside each item is aligned
+
+## Align content (wrapped items along the cross-axis)
+
+This property on the flex container determines how to divide up the whitepace around the wrapped items, so it only appilcable if have one more lines of wrapped content.
+* _align-content: strech_ (default value) - will stretch each item of the wrap lines to fill up the whitespace
+* _align-content: flex-start_
+* _align-content: flex-end_
+* _align-content: center_
+* _align-content: space-between_
+* _align-content: space-around_
+
+## Align self (override alignment along cross-axis of individual items)
+
+This property applies to the flex items and is used to override the align items value set at the container level on individual flex items.
