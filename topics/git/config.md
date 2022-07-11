@@ -17,3 +17,9 @@ Run following command within git folder
 ``` shell
 git config credential.helper store
 ```
+
+## Removing a config property
+Run following command within git folder
+``` shell
+git config --global --unset <property.name goes here>
+```
