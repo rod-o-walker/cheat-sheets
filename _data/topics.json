@@ -28,5 +28,8 @@
     },
     "markdown": {
         "label": "Markdown"
+    },
+    "reactjs": {
+        "label": "ReactJS"
     }
 }
