@@ -27,3 +27,9 @@ If need to update the remote branch to this same old commit, will need to do a f
 ```shell
 git push -f origin <branch name>
 ```
+
+## Clone without (all) history
+This will clone a repo but limit the amount of history that is included (makes for faster clone)
+```shell
+git clone --depth <n> <repo_url>
+```
