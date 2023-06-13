@@ -33,3 +33,11 @@ This will clone a repo but limit the amount of history that is included (makes f
 ```shell
 git clone --depth <n> <repo_url>
 ```
+
+## Cherry-picking a commit
+When you need to add a commit to a specific branch that exists in a separate branch without merging the whole branch.
+This works for one or more commits, just by including each required commit hash.
+```shell
+git checkout <branch_to_be_updated>
+git cherry-pick <commit_hash_1> <commit_hash_2> etc.
+```
